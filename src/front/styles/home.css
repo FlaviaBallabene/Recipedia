@@ -1,7 +1,100 @@
-/*
-    home.css: This website contains selectors only used in home.css
+#app{
+    font-family: 'avenir light';
+    color: #303131;
+}
+.navbarCustom{
+    font-size: 24px;
+    margin: 0 10% 0 4%;
+}
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+.chatbot{
+    margin: 0 0 0 4%;
+}
+
+.chatbot-container{
+    font-family: 'avenir light';
+    font-size: 20px;
+    color: #303131;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+/* button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+  margin: 0 10% 0 4%;
+  border: none;
+  background-color: transparent;
+  } */
+
+.filter-button {
+    display: block;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* CookMode.css */
+.cook-mode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cook-mode-toggle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  .cook-mode-toggle label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .cook-mode-toggle label svg {
+    transition: all 0.3s ease;
+  }
+  
+  .cook-mode-label {
+    margin-left: 10px;
+  }
+  
+  .cook-mode-description {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .cook-mode-toggle label.active svg ellipse {
+    cx: 34.3872;
+    fill: #273A4E;
+  }
+  
